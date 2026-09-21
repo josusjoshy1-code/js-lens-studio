@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>J's Lens Studio | Product Photography</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0d0f12;
+      --card-bg: #16191f;
+      --accent: #d4af37;
+      --text: #f3f4f6;
+      --muted: #9ca3af;
+      --border: #232730;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 0 1.5rem;
+    }
+    header {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 4rem 0 2rem;
+      text-align: center;
+    }
+    .logo {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid var(--accent);
+      margin-bottom: 1.5rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+    }
+    p.tagline {
+      color: var(--muted);
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
+    }
+    .cta-btn {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 0.8rem 2rem;
+      background: var(--accent);
+      color: #000;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 9999px;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+    .cta-btn:hover { opacity: 0.9; transform: translateY(-2px); }
+    section {
+      max-width: 1080px;
+      margin: 3rem auto;
+    }
+    .section-title {
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.5rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      aspect-ratio: 1/1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    footer {
+      text-align: center;
+      padding: 4rem 0;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="images/logo.png" alt="J's Lens Studio Logo" class="logo" />
+    <h1>J's Lens Studio</h1>
+    <p class="tagline">High-End Product Photography & Visual Assets for Modern Brands</p>
+    <a href="mailto:yourbrand@email.com" class="cta-btn">Book a Shoot</a>
+  </header>
+
+  <section>
+    <h2 class="section-title">Featured Works</h2>
+    <div class="gallery">
+      <div class="card">Cosmetics & Skincare Shot (Drop photo here)</div>
+      <div class="card">Minimalist Tech Flat Lay (Drop photo here)</div>
+      <div class="card">Lifestyle & Home Decor (Drop photo here)</div>
+      <div class="card">Beverage / Bottle Detail (Drop photo here)</div>
+      <div class="card">Studio Lighting Test (Drop photo here)</div>
+      <div class="card">Clean E-Commerce Mockup (Drop photo here)</div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 J's Lens Studio. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
